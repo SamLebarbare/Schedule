@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "main": "server/app.js",
   "dependencies": {
+    "bower": "^1.4.1",
     "body-parser": "~1.5.0",
     "composable-middleware": "^0.3.0",
     "compression": "~1.0.1",
@@ -24,7 +25,6 @@
     "serve-favicon": "~2.0.1"
   },
   "devDependencies": {
-    "bower": "^1.4.1",
     "connect-livereload": "~0.4.0",
     "grunt": "~0.4.4",
     "grunt-angular-templates": "^0.5.4",
