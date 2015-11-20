@@ -84,8 +84,8 @@
   },
   "scripts": {
     "start": "node server/app.js",
-    "postinstall": "bower install",
-    "postupdate": "bower update",
+    "postinstall": "./bin/bower install",
+    "postupdate": "./bin/bower update",
     "test": "grunt test",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
   },
